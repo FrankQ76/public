@@ -25,18 +25,6 @@ blueprint:
       default: []
       selector:
         action:
-    button_3:
-      name: Button_3
-      description: Action to run when button 3 is pressed
-      default: []
-      selector:
-        action:
-    button_4:
-      name: Button_4
-      description: Action to run when button 4 is pressed
-      default: []
-      selector:
-        action:
 
 mode: restart
 max_exceeded: silent
@@ -58,9 +46,4 @@ action:
       - conditions:
           - "{{ command == 'off' }}"
         sequence: !input button_2
-      - conditions:
-          - "{{ command == 'step' && args[0] == '1,85,7' }}"
-        sequence: !input button_3
-      - conditions:
-          - "{{ command == 'step' && args[0] == '0,85,7' }}"
-        sequence: !input button_4
+        

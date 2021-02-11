@@ -14,7 +14,7 @@ blueprint:
             domain: sensor
             device_class: battery
     button_1:
-      name: Button 1
+      name: Button_1
       description: Action to run when button 1 is pressed
       default: []
       selector:

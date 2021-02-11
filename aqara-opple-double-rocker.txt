@@ -39,16 +39,16 @@ blueprint:
       selector:
         action:
         
-    button_3_long_press:
-      name: Button_3_Long_Press
-      description: Action to run when button 3 is long pressed
+    button_3_double_press:
+      name: Button_3_Double_Press
+      description: Action to run when button 3 is 2 times fast
       default: []
       selector:
         action:
         
     button_4_long_press:
-      name: Button_4_Long_Press
-      description: Action to run when button 4 is long pressed
+      name: Button_4_Double_Press
+      description: Action to run when button 4 is pressed 2 times fast
       default: []
       selector:
         action:
@@ -74,14 +74,14 @@ action:
           - "{{ command == 'off' }}"
         sequence: !input button_2
       - conditions:
-          - "{{ command == 'step' && args[1] == '1' }}"
+          - "{{ command == 'step' && args[1] == '0' }}"
         sequence: !input button_3
       - conditions:
-          - "{{ command == 'step' && args[2] == '0' }}"
+          - "{{ command == 'step' && args[1] == '1' }}"
         sequence: !input button_4
       - conditions:
-          - "{{ command == 'step' && args[1] == '1' }}"
-        sequence: !input button_3_long_press
+          - "{{ command == 'step_color_temp' && args[1] == '3' }}"
+        sequence: !input button_3_double_press
       - conditions:
-          - "{{ command == 'step' && args[2] == '0' }}"
-        sequence: !input button_4_long_press
+          - "{{ command == 'step_color_temp' && args[1] == '1' }}"
+        sequence: !input button_4_double_press

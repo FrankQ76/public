@@ -69,14 +69,14 @@ action:
           - "{{ command == 'off' }}"
         sequence: !input button_2
       - conditions:
-          - "{{ command == 'step' && args[1] == '0' }}"
+          - "{{ command == 'step' and args[1] == '0' }}"
         sequence: !input button_3
       - conditions:
-          - "{{ command == 'step' && args[1] == '1' }}"
+          - "{{ command == 'step' and args[1] == '1' }}"
         sequence: !input button_4
       - conditions:
-          - "{{ command == 'step_color_temp' && args == [3,69,7,0,0] }}"
+          - "{{ command == 'step_color_temp' and args == [3,69,7,0,0] }}"
         sequence: !input button_3_double_press
       - conditions:
-          - "{{ command == 'step_color_temp' && args == [1,69,7,0,0] }}"
+          - "{{ command == 'step_color_temp' and args == [1,69,7,0,0] }}"
         sequence: !input button_4_double_press

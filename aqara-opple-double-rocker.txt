@@ -31,31 +31,26 @@ blueprint:
       default: []
       selector:
         action:
-        
     button_4:
       name: Button_4
       description: Action to run when button 4 is pressed
       default: []
       selector:
         action:
-        
     button_3_double_press:
       name: Button_3_Double_Press
       description: Action to run when button 3 is 2 times fast
       default: []
       selector:
         action:
-        
     button_4_double_press:
       name: Button_4_Double_Press
       description: Action to run when button 4 is pressed 2 times fast
       default: []
       selector:
         action:
-
 mode: restart
 max_exceeded: silent
-
 trigger:
   - platform: event
     event_type: zha_event

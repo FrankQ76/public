@@ -5,7 +5,7 @@ blueprint:
   input:
     aqara_opple_switch:
       name: Select the Aqara Wireless Remote Switch (Double Rocker)
-      description: Aqara Wireless Remote Switch (Double Rocker)
+      description: Aqara-Opple Wireless Remote Switch (Double Rocker)
       selector:
         device:
           integration: zha
@@ -31,9 +31,24 @@ blueprint:
       default: []
       selector:
         action:
+        
     button_4:
       name: Button_4
       description: Action to run when button 4 is pressed
+      default: []
+      selector:
+        action:
+        
+    button_3_long_press:
+      name: Button_3_Long_Press
+      description: Action to run when button 3 is long pressed
+      default: []
+      selector:
+        action:
+        
+    button_4_long_press:
+      name: Button_4_Long_Press
+      description: Action to run when button 4 is long pressed
       default: []
       selector:
         action:
@@ -59,8 +74,14 @@ action:
           - "{{ command == 'off' }}"
         sequence: !input button_2
       - conditions:
-          - "{{ command == 'step' && args[0] == '1,85,7' }}"
+          - "{{ command == 'step' && args[1] == '1' }}"
         sequence: !input button_3
       - conditions:
-          - "{{ command == 'step' && args[0] == '0,85,7' }}"
+          - "{{ command == 'step' && args[2] == '0' }}"
         sequence: !input button_4
+      - conditions:
+          - "{{ command == 'step' && args[1] == '1' }}"
+        sequence: !input button_3_long_press
+      - conditions:
+          - "{{ command == 'step' && args[2] == '0' }}"
+        sequence: !input button_4_long_press

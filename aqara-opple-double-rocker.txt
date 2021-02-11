@@ -46,7 +46,7 @@ blueprint:
       selector:
         action:
         
-    button_4_pressed_2_times:
+    button_4_double_press:
       name: Button_4_Double_Press
       description: Action to run when button 4 is pressed 2 times fast
       default: []

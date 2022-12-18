@@ -2,7 +2,7 @@ blueprint:
   name: Unavailable entity detection & notification
   description: Regularly test all entities' status to check for unavailability.
   domain: automation
-  source_url: /unavailable_entities_notification.yaml
+  source_url: https://github.com/FrankQ76/public/blob/main/unavailable_entities_notification.yaml
   input:
     min:
       name: test every x min

@@ -1,2 +1,5 @@
 video-stats.l.google.com
 s.youtube.com
+www.googleapis.com 
+youtubei.googleapis.com
+oauthaccountmanager.googleapis.com

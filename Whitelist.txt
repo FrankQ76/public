@@ -1,29 +1,3 @@
-video-stats.l.google.com
-video-stats.video.google.com
-s.youtube.com
-www.googleapis.com 
-youtubei.googleapis.com
-oauthaccountmanager.googleapis.com
-www.msftncsi.com 
-www.msftconnecttest.com
-googleapis.l.google.com
-s.gateway.messenger.live.com 
-client-s.gateway.messenger.live.com 
-ui.skype.com 
-pricelist.skype.com 
-apps.skype.com 
-m.hotmail.com 
-sa.symcb.com 
-s{1..5}.symcb.com
-officeclient.microsoft.com
-dev.virtualearth.net 
-ecn.dev.virtualearth.net 
-t0.ssl.ak.dynamic.tiles.virtualearth.net 
-t0.ssl.ak.tiles.virtualearth.net
-s.mzstatic.com
-gsp-ssl.ls-apple.com.akadns.net
-dl.dropboxusercontent.com 
-ns1.dropbox.com 
-ns2.dropbox.com
+pihole -w video-stats.l.google.com video-stats.video.google.com s.youtube.com www.googleapis.com youtubei.googleapis.com oauthaccountmanager.googleapis.com www.msftncsi.com www.msftconnecttest.com googleapis.l.google.com s.gateway.messenger.live.com client-s.gateway.messenger.live.com ui.skype.com pricelist.skype.com apps.skype.com m.hotmail.com sa.symcb.com s{1..5}.symcb.com officeclient.microsoft.com dev.virtualearth.net ecn.dev.virtualearth.net t0.ssl.ak.dynamic.tiles.virtualearth.net t0.ssl.ak.tiles.virtualearth.net s.mzstatic.com gsp-ssl.ls-apple.com.akadns.net dl.dropboxusercontent.com ns1.dropbox.com ns2.dropbox.com
 
 

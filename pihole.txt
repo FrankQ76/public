@@ -1,7 +1,7 @@
-https://adaway.org/hosts.txt 
-https://bitbucket.org/ethanr/dns-blacklists/raw/8575c9f96e5b4a1308f2f12394abd86d0927a4a0/bad_lists/Mandiant_APT1_Report_Appendix_D.txt 
-https://blocklistproject.github.io/Lists/abuse.txt 
-https://blocklistproject.github.io/Lists/ads.txt 
+https://adaway.org/hosts.txt
+https://bitbucket.org/ethanr/dns-blacklists/raw/8575c9f96e5b4a1308f2f12394abd86d0927a4a0/bad_lists/Mandiant_APT1_Report_Appendix_D.txt
+https://blocklistproject.github.io/Lists/abuse.txt
+https://blocklistproject.github.io/Lists/ads.txt
 https://blocklistproject.github.io/Lists/drugs.txt
 https://blocklistproject.github.io/Lists/fraud.txt
 https://blocklistproject.github.io/Lists/gambling.txt
@@ -13,9 +13,10 @@ https://blocklistproject.github.io/Lists/ransomware.txt
 https://blocklistproject.github.io/Lists/redirect.txt
 https://blocklistproject.github.io/Lists/scam.txt
 https://blocklistproject.github.io/Lists/tiktok.txt
-https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/hosts
-https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/leagueoflegends.txt
-https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/riotgames.txt
+https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/games/league-of-legends.txt
+https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/malicious-sites.txt
+https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/sites/riotgames.txt
+https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/web-attacks.txt
 https://dbl.oisd.nl
 https://ente.dev/api/blocklist/google-amp
 https://ente.dev/api/blocklist/google-amp-hosts
